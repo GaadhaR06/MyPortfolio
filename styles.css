@@ -59,7 +59,7 @@ body{
         padding: 3px 40px;
     }
 
-    #button3{
+    #aboutMe{
         cursor: pointer;
         background-color: transparent;
         font-family: Poppins;
@@ -73,5 +73,41 @@ body{
         padding: 3px 40px;
     }
 
+    #mySidebar{
+        /* transition: 3s; */
+        font-family: Poppins;
+        color: black;
+        background-color: white;
+        height: 100%;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .closebutton{
+        float:right;
+        background-color: white;
+        color: black;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        padding-top: 10px;
+    }
+
+    .animate-left{
+        position:relative;
+        animation:animateleft 0.6s}
+        
+        @keyframes animateleft{
+            from{left:-300px;opacity:0} to{left:0;opacity:1}
+        }
+
+    .animate-right{
+        position:relative;
+        animation:animateright 0.4s
+    }
+    @keyframes animateright
+    {
+        from{right:-300px;opacity:0} to{right:0;opacity:1}
+    }
     
 
