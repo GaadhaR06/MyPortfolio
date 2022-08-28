@@ -1,0 +1,53 @@
+<DOCTYPE html>
+    <html lang="eng">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width" initial-scale=1.0>
+      <title>Portfolio</title>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+       <link rel="stylesheet" href="styles.css">
+       <link href='https://fonts.googleapis.com/css?family=Inter|Impact|Poppins' rel='stylesheet'>
+    </head>
+    <body>
+      
+      <div class="sidebar bar-block card animate-left" style="display:none" id="mySidebar">
+        <button class="bar-item button large"
+                onclick="sideBarClose()">Close &times;
+        </button>
+  
+         <p>A passionate B.Tech undergraduate,I major in Computer Science at Rajiv Gandhi Institute of Technology, Kottayam. I am proficient in languages like Python, C, C++, Javascript, Dart etc. I also have fair knowledge in app development using Flutter.</p>
+
+         <p> Being in groups and organizing and managing all sorts of events is something that i am really enthusiastic about. I like to connect with people from around the world, coming from various backgrounds and learn new and interesting stuff. I strongly believe that new connections can change the way you look at the world, and more importantly, yourself.</p>
+      </div> 
+      <div id = "main"> 
+        <center>
+          
+          <img src = "profilepicture.jpg" alt="picture" class="profilepic">
+        
+          <p class ="name">GADHA R</p>
+          <p class = "caption">STUDENT. ORGANIZER. DEVELOPER.</p>
+
+
+          <input type="button" name="Resume" value="Resume" id="button1" onclick="sideBarOpen()"/>
+          <input type="button"name="About Me" value="About Me" id="button3" onclick="sideBar1Open()"/>
+          <button name="Get in Touch" id="getInTouch" onclick="sideBar2Open()">Get in Touch</button>
+        </center>
+      </div>
+        <script>
+          function sideBar2Open() {
+            document.getElementById("main").style.marginLeft = "25%";
+            document.getElementById("main").style.marginTop = "-300px";
+            document.getElementById("mySidebar").style.width = "25%";
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("getInTouch").style.display = 'none';
+          }
+
+          function sideBarClose() {
+            document.getElementById("main").style.marginLeft = "0%";
+            ocument.getElementById("main").style.marginBottom = "300px";
+            document.getElementById("mySidebar").style.display = 'none';
+            document.getElementById("getInTouch").style.display = "block";
+}
+          </script>
+        </body>
+        </html>

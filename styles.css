@@ -1,0 +1,77 @@
+body{
+    background-image: url(background1.jpg); 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;  
+}
+
+.profilepic{ 
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    /* margin-right: 750px; */
+    margin-top: 30px;
+}
+
+.name{
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: bold;
+    /* margin-right: 725px; */
+    letter-spacing: 4px;
+}
+
+.caption{
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: bold;
+    /* margin-right: 655px; */
+    letter-spacing: 3px;
+}
+
+#button1{
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 20px;
+    color: whitesmoke;
+    border: 4px solid whitesmoke;
+    border-radius: 15px;
+    display:inline;
+    margin-top: 50px;
+    padding: 3px 40px;
+}
+
+    #getInTouch{
+        cursor: pointer;
+        background-color: transparent;
+        font-family: Poppins;
+        font-size: 20px;
+        color: whitesmoke;
+        border: 4px solid whitesmoke;
+        border-radius: 15px;
+        display:block;
+        margin-top: 50px;
+        padding: 3px 40px;
+    }
+
+    #button3{
+        cursor: pointer;
+        background-color: transparent;
+        font-family: Poppins;
+        font-size: 20px;
+        color: whitesmoke;
+        border: 4px solid whitesmoke;
+        border-radius: 15px;
+        display:inline;
+        margin-top: 50px;
+        margin-left: 15px;
+        padding: 3px 40px;
+    }
+
+    
+
