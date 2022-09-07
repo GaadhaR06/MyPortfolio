@@ -4,13 +4,13 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width" initial-scale=1.0>
       <title>Portfolio</title>
-       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
        <link rel="stylesheet" href="styles.css">
        <link href='https://fonts.googleapis.com/css?family=Inter|Impact|Poppins' rel='stylesheet'>
     </head>
     <body>
       
-      <div class="sidebar1 animate-left" style="display:none" id="mySidebar">
+      <div class="animate-left" style="display:none" id="mySidebar">
         <button class="closebutton large"
                 onclick="sideBarClose()">&times;
         </button>
@@ -18,8 +18,10 @@
                   font-size: 24px     ">ABOUT ME</p>
         <p style="padding-top: 50px">A passionate B.Tech undergraduate,I major in Computer Science at Rajiv Gandhi Institute of Technology, Kottayam. I am proficient in languages like Python, C, C++, Javascript, Dart etc. I also have fair knowledge in app development using Flutter.</p>
 
-         <p> Being in groups and organizing and managing all sorts of events is something that i am really enthusiastic about. I like to connect with people from around the world, coming from various backgrounds and learn new and interesting stuff. I strongly believe that new connections can change the way you look at the world, and more importantly, yourself.</p> 
+         <p> Being in groups and organizing and managing all sorts of events is something that I am really enthusiastic about. I like to connect with people from around the world, coming from various backgrounds and learn new and interesting stuff. I strongly believe that new connections can change the way you look at the world, and more importantly, yourself.</p> 
       </div> 
+
+      
       <div id = "main"> 
         <center>
           
@@ -36,13 +38,13 @@
       </div>
         <script>
           function aboutMe() {
-            document.getElementById("main").style.marginLeft = "40%";
-            document.getElementById("main").style.marginTop = "-850px";
+            document.getElementById("main").style.marginLeft = "35%";
+            document.getElementById("main").style.marginTop = "-800px";
             document.getElementById("mySidebar").style.width = "30%";
             document.getElementById("mySidebar").style.display = "block";
             document.getElementById("aboutMe").style.display = "none";
           }
-
+      
           function sideBarClose() {
             document.getElementById("main").style.marginLeft = "0%";
             document.getElementById("main").style.marginTop = "0px";
@@ -52,9 +54,7 @@
           }
 
           function getInTouch(){
-            //window.location.href = "http://example.com/new_url";
-            document.getElementById("main").style.display = "none";
-            document.getElementById("aboutMe").style.display = "none";
+            //window.location.href = "http://localhost:1234/contactme.html";
           }
           </script>
         </body>
