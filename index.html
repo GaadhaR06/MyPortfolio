@@ -10,7 +10,7 @@
     </head>
     <body>
       
-      <div class="animate-left" style="display:none" id="mySidebar">
+      <div class="animate-left" style="display:none" id="mySidebar1">
         <button class="closebutton large"
                 onclick="sideBarClose()">&times;
         </button>
@@ -40,21 +40,21 @@
           function aboutMe() {
             document.getElementById("main").style.marginLeft = "35%";
             document.getElementById("main").style.marginTop = "-800px";
-            document.getElementById("mySidebar").style.width = "30%";
-            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("mySidebar1").style.width = "30%";
+            document.getElementById("mySidebar1").style.display = "block";
             document.getElementById("aboutMe").style.display = "none";
           }
       
           function sideBarClose() {
             document.getElementById("main").style.marginLeft = "0%";
             document.getElementById("main").style.marginTop = "0px";
-            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("mySidebar1").style.display = "none";
             document.getElementById("aboutMe").style.display = "inline-block";
           
           }
 
           function getInTouch(){
-            //window.location.href = "http://localhost:1234/contactme.html";
+            window.location.href = "file:/F:/projects/MyPortfolio/contactme.html";
           }
           </script>
         </body>
