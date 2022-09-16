@@ -19,7 +19,7 @@
           <p class = "caption">STUDENT. ORGANIZER. DEVELOPER.</p>
 
 
-          <input type="button" name="Resume" value="Resume" id="Resume" onclick="sideBarOpen()"/>
+          <input type="button" name="Resume" value="Resume" id="Resume" onclick="openResume()"/>
           <button name="About Me" id="aboutMe" onclick="aboutMe()">About Me</button>
           <button name="Get in Touch" id="getInTouch" onclick="getInTouch()">Get in Touch</button>
         </center>
@@ -37,6 +37,10 @@
       </div> 
 
         <script>
+
+            function openResume(){
+              window.location.href = "https://docs.google.com/document/d/1Uze29th-2XHx1Sj2XDXm2gtMQ01tJ0EhWL0n6BF75Mk/edit?usp=sharing";
+            }
             function aboutMe() {
               if(window.innerWidth > 992)
               {
