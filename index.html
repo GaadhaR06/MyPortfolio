@@ -10,9 +10,6 @@
     </head>
     <body>
       
-      
-
-      
       <div id = "main"> 
         <center>
           
@@ -59,11 +56,20 @@
             }
           
             function sideBarClose() {
-              document.getElementById("main").style.marginLeft = "0%";
-              document.getElementById("main").style.marginTop = "0px";
-              document.getElementById("mySidebar1").style.display = "none";
-              document.getElementById("aboutMe").style.display = "inline-block";
-            
+              if(window.innerWidth > 992)
+              {
+                document.getElementById("main").style.marginLeft = "0%";
+                document.getElementById("main").style.marginTop = "0px";
+                document.getElementById("mySidebar1").style.display = "none";
+                document.getElementById("aboutMe").style.display = "inline-block";
+              }
+              else{
+                document.getElementById("main").style.marginLeft = "0%";
+                document.getElementById("main").style.marginTop = "0px";
+                document.getElementById("mySidebar1").style.display = "none";
+                document.getElementById("aboutMe").style.display = "inline-block";
+                document.getElementById("main").style.display = "inline-block";
+              }
             }
           
             function getInTouch(){
